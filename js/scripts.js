@@ -184,19 +184,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Lu and Robbie's Civil Partnership Party",
+            title: "John and Ashley's Wedding",
 
             // Event start date
-            start: new Date('July 19th, 2025 15:30'),
+            start: new Date('Apr 30, 2023 12:00'),
 
+            // Event duration (IN MINUTES)
+            // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('July 19th, 2025 23:00'),
+            end: new Date('May 1, 2023 01:00'),
 
             // Event Address
-            address: 'Whitekirk Village Hall, Whitekirk, Dunbar EH42 1XS, UK',
-"
+            address: 'The Vu, Ballencrieff Reservoir, Bathgate, West Lothian, EH48 4LD, UK',
+
+            // Event Description
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact Johnandashwed@gmail.com"
         }
     });
 
@@ -214,7 +218,7 @@ $(document).ready(function () {
             && MD5($('#invite_code').val()) !== 'c1c7e0a8147cf939e32f3a8405716e18') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbxlBwK3FOQsmIHYpuP5d3igGMRuMRRuju4yo5Ed1rUQ56JCw2i6hZQW0QSu7TKRBCaZ/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbzFr5S5eVKaweuO3owuridwYSTGi-GKaOlPsESIl9g8mPKJ1d_erxaBwrosQ0PofLw/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
