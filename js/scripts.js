@@ -187,7 +187,7 @@ $(document).ready(function () {
             title: "Lu and Robbie's Civil Partnership Party",
 
             // Event start date
-            start: new Date('July 19, 2025 15:30'),
+            start: new Date('July 19, 2025 15:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
@@ -200,7 +200,7 @@ $(document).ready(function () {
             address: 'Whitekirk Village Hall, Whitekirk, Dunbar EH42 1XS, UK',
 
             // Event Description
-            description: " "
+            description: "  "
         }
     });
 
