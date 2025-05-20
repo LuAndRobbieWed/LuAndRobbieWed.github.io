@@ -200,7 +200,7 @@ $(document).ready(function () {
             address: 'Whitekirk Village Hall, Whitekirk, Dunbar EH42 1XS, UK',
 
             // Event Description
-            description: " "
+            description: "  "
         }
     });
 
