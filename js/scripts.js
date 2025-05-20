@@ -187,7 +187,7 @@ $(document).ready(function () {
             title: "Lu and Robbie's Civil Partnership Party",
 
             // Event start date
-            start: new Date('July 19, 2025 15:00'),
+            start: new Date('July 19, 2025 15:30'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
